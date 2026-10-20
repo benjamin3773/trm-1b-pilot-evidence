@@ -1,0 +1,42 @@
+{
+  "input_images": 100,
+  "downloaded_images": 100,
+  "scored_images": 100,
+  "found_images": 80,
+  "not_found_images": 20,
+  "download_failures": 0,
+  "windows_scored": 78100,
+  "retained_candidates": 245,
+  "passing_candidates": 194,
+  "model_name": "facebook/dinov3-convnext-tiny-pretrain-lvd1689m",
+  "device": "mps",
+  "min_score": 0.75,
+  "window_fractions": [
+    0.12,
+    0.16,
+    0.2,
+    0.24,
+    0.34
+  ],
+  "window_overlap": 0.5,
+  "positive_queries": [
+    "PR_20090613_101225_174_LC16_obj0.png:masked_foreground",
+    "PR_20090613_101225_174_LC16_obj1.png:masked_foreground",
+    "PR_20090613_101859_200_LC16_obj2.png:masked_foreground",
+    "PR_20090613_102117_200_LC16_obj0.png:masked_foreground",
+    "PR_20090613_102117_200_LC16_obj1.png:masked_foreground",
+    "PR_20090613_102117_200_LC16_obj2.png:masked_foreground",
+    "PR_20090613_102117_200_LC16_obj3.png:masked_foreground",
+    "PR_20090613_104537_310_LC16_obj1.png:masked_foreground"
+  ],
+  "negative_queries": [],
+  "negative_weight": 0.35,
+  "dense_top_k_patches": 3,
+  "opaque_query_reliability": 0.45,
+  "nms_center_distance": 1.0,
+  "selection_size_penalty": 0.15,
+  "detection_rate": 0.8,
+  "image_results_csv": "results_images.csv",
+  "candidate_results_csv": "results_candidates.csv",
+  "sam_box_prompts_csv": "sam_box_prompts.csv"
+}

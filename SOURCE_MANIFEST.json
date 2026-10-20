@@ -1,0 +1,48 @@
+{
+  "prepared_on": "2026-10-20",
+  "scope": "Portable copies of one archived DINOv3 development pilot. Original source files are unchanged.",
+  "original_sha256": {
+    "analytics.json": "72a31237b7bc82f77efd5212a55b3b870321f71b1bd476df1784dd43d230682d",
+    "results_images.csv": "683a15662e2017490b276e498c0898c865ebf0fd4140f50c73668b80c474182c",
+    "results_candidates.csv": "23557bfa4db3f974f204ced9ce5baa82a58d256fd02572eead3aab89db0856da",
+    "sam_box_prompts.csv": "3578dbc8f54c25cd452e032e612398789890be9db8a16232c4ec99259d37d8b6"
+  },
+  "transformations": {
+    "analytics.json": "Changed three absolute CSV paths to repository-relative filenames; omitted the HTML report path. Counts, scores, query settings and model settings are unchanged.",
+    "csv_columns_removed": {
+      "results_images.csv": [
+        "Unnamed: 0",
+        "path_best",
+        "pose.timestamp",
+        "pose.alt",
+        "pose.lat",
+        "pose.dep",
+        "pose.lon",
+        "url",
+        "image_path",
+        "comparison_path",
+        "heatmap_path",
+        "url_file",
+        "error"
+      ],
+      "results_candidates.csv": [
+        "url",
+        "crop_path",
+        "comparison_path",
+        "heatmap_path"
+      ],
+      "sam_box_prompts.csv": [
+        "url"
+      ]
+    }
+  },
+  "not_included": [
+    "Raw or derived imagery",
+    "Precise coordinates and pose metadata",
+    "Source-image URLs",
+    "Local computer paths",
+    "The HTML gallery and its image assets",
+    "The student report, signatures and personal completion records"
+  ],
+  "reuse": "Source-image rights are not transferred by this repository. No source imagery is distributed."
+}

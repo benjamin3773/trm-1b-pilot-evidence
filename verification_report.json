@@ -1,0 +1,18 @@
+{
+  "images": 100,
+  "found_images": 80,
+  "selection_fraction": 0.8,
+  "retained_candidates": 245,
+  "passing_candidates": 194,
+  "box_prompt_rows": 194,
+  "positive_query_views": 8,
+  "unique_query_source_images": 4,
+  "query_source_images_also_in_search": [
+    "PR_20090613_101225_174_LC16",
+    "PR_20090613_101859_200_LC16",
+    "PR_20090613_102117_200_LC16",
+    "PR_20090613_104537_310_LC16"
+  ],
+  "negative_query_count": 0,
+  "interpretation": "Archive consistency and overlap checks only. Selection fraction is not verified accuracy, precision or recall."
+}
